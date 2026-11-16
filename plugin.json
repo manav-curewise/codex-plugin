@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "app-6aa7b0ccf29081918b3ff225f8780f83",
+  "version": "1.0.0",
+  "description": "CureWise is a health information navigation tool for people living with cancer. It helps users search public clinical trial listings, read their own uploaded health documents, and compare AI-generated informational responses. It does not provide medical advice, diagnosis, or treatment, and is not a substitute for professional medical care.",
+  "author": {
+    "name": "CureWise",
+    "email": "support@curewise.com"
+  },
+  "homepage": "https://app.curewise.com/plugins",
+  "repository": "https://github.com/curewise/curewise-plugin",
+  "license": "MIT",
+  "keywords": ["mcp", "health", "research", "curewise"],
+  "interface": {
+    "displayName": "CureWise",
+    "shortDescription": "Health information navigation for cancer patients — not medical advice",
+    "longDescription": "CureWise is a health information navigation tool for people living with cancer. It helps users search public clinical trial listings from ClinicalTrials.gov, read and organize their own uploaded health documents, and run side-by-side informational comparisons across AI models. CureWise does not provide medical advice, diagnosis, or treatment recommendations and is not a substitute for consultation with a qualified healthcare professional.",
+    "developerName": "CureWise",
+    "category": "Healthcare",
+    "capabilities": [
+      "Search public clinical trial listings from ClinicalTrials.gov by keyword or NCT ID",
+      "Read and search personal health documents the user has uploaded",
+      "Compare AI-generated informational responses side-by-side (educational only)"
+    ],
+    "websiteURL": "https://app.curewise.com",
+    "privacyPolicyURL": "https://curewise.com/privacy",
+    "termsOfServiceURL": "https://curewise.com/terms",
+    "supportURL": "https://app.curewise.com/support",
+    "logo": "assets/logo.png"
+  }
+}
